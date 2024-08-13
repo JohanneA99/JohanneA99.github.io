@@ -32,7 +32,7 @@ else:
     print(f"No output folder provided. Using default: {output_folder}")
 
 # Subfolder to store the images
-src_folder = os.path.join(output_folder, "src") 
+src_folder = os.path.join(output_folder, "assets") 
 
 # Start the conversion process
 print("Starting PDF to HTML conversion...")
